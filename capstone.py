@@ -18,21 +18,21 @@ cupid = pd.read_csv("profiles.csv")
 
 #Mapping for new columns
 kids = {
-	'doesn&rsquo;t have kids': int(1),
-	'doesn&rsquo;t have kids, but might want them': int(1),
-	'doesn&rsquo;t have kids, and doesn&rsquo;t want any': int(1),
-	'doesn&rsquo;t have kids, but wants them': int(1),
-	'doesn&rsquo;t want kids': int(1),
-	'wants kids': int(1),
-	'might want kids': int(1),
-	'has kids'   : int(2),
-	'has a kid': int(2),
-	'has kids, but doesn&rsquo;t want more': int(2),
-	'has a kid, but doesn&rsquo;t want more': int(2),
-	'has a kid, and might want more': int(2),
-	'has kids, and might want more': int(2),
-	'has a kid, and wants more': int(2),
-	'has kids, and wants more': int(2),
+	'doesn&rsquo;t have kids': int(0),
+	'doesn&rsquo;t have kids, but might want them': int(0),
+	'doesn&rsquo;t have kids, and doesn&rsquo;t want any': int(0),
+	'doesn&rsquo;t have kids, but wants them': int(0),
+	'doesn&rsquo;t want kids': int(0),
+	'wants kids': int(0),
+	'might want kids': int(0),
+	'has kids'   : int(1),
+	'has a kid': int(1),
+	'has kids, but doesn&rsquo;t want more': int(1),
+	'has a kid, but doesn&rsquo;t want more': int(1),
+	'has a kid, and might want more': int(1),
+	'has kids, and might want more': int(1),
+	'has a kid, and wants more': int(1),
+	'has kids, and wants more': int(1),
 }
 
 statuses = {
